@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+#home{
+    height: 110vh;
+    width: 100%;
+    background: url(hero-bcg.jpeg);
+    background-size: cover;
+    z-index: -2;
+   
+}
+
+.contain{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -1;
+}
+
+.nav-bar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    
+}
+
+.nav-bar2 {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    height: 8vh;
+    width: 10vh;
+    background-image: url(logo.svg);
+    background-size: cover;
+    margin-left: 80px;
+}
+
+.option{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 80px;
+}
+.option ul{width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    text-decoration:none;
+    
+}
+.scroll-link{
+    color: white;
+    text-decoration: none;
+}
+.scroll-link2{
+    color: black;
+    /* text-decoration: none; */
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    height: 35%;
+    width: 47%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content h1{
+    font-size: 4rem;
+}
+
+.content p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#button{
+    height: 2.5rem;
+    width: 10rem;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button:hover{
+    background-color: white;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#about{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(128,128,128,0.1);
+    
+}
+
+#service{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#tour{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(128,128,128,0.1);
+}
+
+footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    color: white;
+}

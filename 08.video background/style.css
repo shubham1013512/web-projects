@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgba(0,0,0, 0.7);
+    z-index: -1;
+}
+
+#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+    
+}
+
+
+
+h2{
+    color: white;
+    font-size: 4rem;
+}
+
+/* .btn-container{
+    height: 20px;
+    width: 100px;
+    position: fixed;
+    left: 5rem;
+    bottom: 10rem;
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    color: blueviolet;
+}
+
+.btn{
+    background-color: blueviolet; 
+}
+
+.play{
+    border-radius: 3px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+}
+.pause{
+    border-radius: 3px;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+} */
+
+.switch-btn{
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+    width: 7rem;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.switch-btn span{
+    display: inline-block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #49a6e9;
+}
+
+
+
+.switch{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #49a6e9;
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+    margin: 0;
+    display: block;
+}
+
+.slide .switch{
+    left: 50%;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}
+
+h2{
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.containt{
+    margin-top: 3rem;
+}
+
+.questions{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.questions button{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+}
+
+.answer{
+    margin-top: 2rem;
+    display: none;
+}

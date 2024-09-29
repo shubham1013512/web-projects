@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5e6e8;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.title{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.title h2{
+    font-size: 3rem;
+}
+
+.container{
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image{
+    height: 300px;
+    width: 48%;
+    /* border: 1px solid black; */
+    background-image: url(hero-bcg.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.contain{
+    width: 48%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    
+    
+    
+}
+
+.tabs{
+    width: 100%;
+    height: 3rem;
+    /* border: 1px solid black; */
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #d5c6e0;
+     
+    
+    
+}
+
+.tab{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5c6e0;
+    border: none;
+}
+
+.tab:hover{
+    cursor: pointer;
+    background-color: #f5e6e8;
+    border-radius: 0;
+}
+
+.tab2{
+    background-color: white;
+}
+
+[data-id="History"]{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+}
+
+[data-id="Vision"]{
+    border-radius: 0;
+}
+
+[data-id="Goals"]{
+    border-top-left-radius: 0;
+    border-top-right-radius: 10px;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.msg{
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+
+    
+}
+.msg h3{
+    font-size: 1.5rem;
+}
+
+.msg p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.msg2{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        width: 80%;
+        /* border: 1px solid black; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+
+    .image{
+        height: 300px;
+        width: 95%;
+        /* border: 1px solid black; */
+        background-image: url(hero-bcg.jpeg);
+        background-size:cover;
+        border-radius: 10px;
+        background-position: center;
+    
+    }
+    .contain{
+        width: 95%;
+        margin-top: 3rem;
+    }
+}

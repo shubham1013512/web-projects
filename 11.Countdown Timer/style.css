@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 60vh;
+    margin-top: 5rem;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+    background-image: url(gift.jpeg);
+    background-size: cover;
+}
+
+.contain{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid black; */
+}
+
+.contain h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.contain h5{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.contain .msg{
+    margin-top: 2rem;
+}
+
+.timer{
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.time{
+    height: 80px;
+    width: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+}
+
+.count{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.deadline{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+
